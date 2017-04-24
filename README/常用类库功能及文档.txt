@@ -1,0 +1,33 @@
+**请注意：以下功能在本模板中已经全部引入
+
+1 vue：
+主要架构，用于构建用户界面的渐进式框架，目前使用2.0以上版本进行开发。
+中文文档：
+https://vuefe.cn/v2/guide/
+
+2 vue-router：
+用于进行前端页面的路由管理，可在页面不刷新的情况下由纯js进行路由切换，配置请参照router/index.js。
+*特别地，后台的ajax请求配置请参照router/Config.js。
+中文文档：
+http://router.vuejs.org/zh-cn/essentials/getting-started.html
+
+3 vuex：
+专为 Vue.js 应用程序开发的状态管理模式，对应用级数据的完整性、唯一性、可访问性进行管理，配置请参照store/index.js
+中文文档：
+https://vuex.vuejs.org/zh-cn/
+
+4.Mint UI：
+基于 Vue.js 的移动端组件库，提供了大量接近移动原生体验的插件。
+中文文档：
+http://mint-ui.github.io/docs/#!/zh-cn2
+
+5.fontawesome
+常用的图标字体库，可满足标准的图标需求。
+中文文档：
+http://fontawesome.dashgame.com/
+
+6.sass
+css样式的编译语法，更方便地进行样式的开发，管理，结构更为清晰，用法灵活。
+*特别地，关于sass的全局变量配置请参照lib/common/global.sass
+中文文档：
+http://www.w3cplus.com/sassguide/

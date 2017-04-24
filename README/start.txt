@@ -1,0 +1,24 @@
+1.安装最新版的nodejs
+https://nodejs.org/en/
+
+2.更换npm的镜像为国内源，或直接安装cnpm（可选）
+http://npm.taobao.org/
+
+3.在项目的/frontEnd目录下进入命令行，安装本地开发和部署所依赖的类库，输入：
+npm install
+
+4.进入项目的开发模式（热部署，动态显示最近的更新）
+npm run dev
+
+/////////开发周期//////////
+
+5.进入项目的部署打包模式
+npm run build
+(打包后的dist文件夹、src文件夹及index.html文件放置于后端项目的WebRoot文件夹中即可)
+
+*6.类包的添加
+·添加项目所需的资源（如vue-router，i-scroll等）
+npm i **资源名** -S
+·添加项目构建所需的资源（如webpack，sass-loader等）
+npm i **资源名** -D
+（请确保你的引入在package.json中有所体现，并提醒其他开发成员使用npm install更新依赖）
