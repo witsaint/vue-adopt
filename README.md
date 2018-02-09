@@ -1,2 +1,2 @@
-# simple
-这是我第一个尝试到热部署的vue项目
+# vue-adopt
+基于vue的手机适配插件代码
